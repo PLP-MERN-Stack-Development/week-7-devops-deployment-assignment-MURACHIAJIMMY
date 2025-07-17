@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://week-7-devops-deployment-assignment-qq5p.onrender.com/api",
 });
 
 instance.interceptors.request.use((config) => {
